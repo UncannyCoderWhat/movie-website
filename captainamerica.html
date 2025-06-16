@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webmovies | Captain America: A Brave New World</title>
+    <link rel="stylesheet" href="movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-left">
+                <a href="index.html">
+                    <img src="logo.jpg" class="logo" width="50px" height="30px">
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="home.html">Home</a>
+                <a href="movielist.html">Movie List</a>
+            </div>
+            <div class="nav-right">
+                <input type="text" class="input" placeholder="Search...">
+                <button class="search-btn">
+                    <img src="search.png">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <div class="header">
+        <div class="bg"><img src="captainamerica1.jpg"></div>
+
+        <!--MOVIE INFO-->
+        <div class="movie-card">
+            <img src="poster19.jpeg" class="poster">
+            <div class="info">
+                <h1>Captain America: A Brave New World</h1>
+                <div class="description">
+                    <span>📅 2025</span>
+                    <span>⭐ 8.2</span>
+                    <span>⏱️ 2h 15m</span>
+                </div>
+                <p>Sam Wilson steps into his new role as Captain America, but with new threats emerging and old enemies
+                    resurfacing, he must navigate a world of political intrigue and personal challenges. This new
+                    chapter in the Captain America saga promises high-stakes action and intense drama.</p>
+                <div class="buttons">
+                    <a href="#trailer">
+                        <button class="play">▶ Play</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TRAILER-->
+    <div id="trailer">
+        <div class="video-container">
+            <div class="title">Captain America: A Brave New World</div>
+            <video controls>
+                <source src="captainamerica.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+
+</body>
+
+</html>

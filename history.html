@@ -1,0 +1,16 @@
+<div id="watchlist-container"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('watchlist-container');
+    const watchlist = JSON.parse(localStorage.getItem('watchlist')) || [];
+
+    if (watchlist.length === 0) {
+      container.innerHTML = "<p>Your watchlist is empty.</p>";
+    } else {
+      container.innerHTML = "<ul>" +
+        watchlist.map(movie => `<li>${movie}</li>`).join('') +
+        "</ul>";
+    }
+  });
+</script>

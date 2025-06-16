@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webmovies | Shutter Island</title>
+    <link rel="stylesheet" href="movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-left">
+                <a href="index.html">
+                    <img src="logo.jpg" class="logo" width="50px" height="30px">
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="home.html">Home</a>
+                <a href="movielist.html">Movie List</a>
+            </div>
+            <div class="nav-right">
+                <input type="text" class="input" placeholder="Search...">
+                <button class="search-btn">
+                    <img src="search.png">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <div class="header">
+        <div class="bg"><img src="shutter1.jpg"></div>
+
+        <!--MOVIE INFO-->
+        <div class="movie-card">
+            <img src="poster61.jpg" class="poster">
+            <div class="info">
+                <h1>Shutter Island</h1>
+                <div class="description">
+                    <span>📅 2/19/2010</span>
+                    <span>⭐ 8.2</span>
+                    <span>⏱️ 2h 18m</span>
+                </div>
+                <p>U.S. Marshal Teddy Daniels arrives at Shutter Island, a remote asylum for the criminally insane, to
+                    investigate the mysterious disappearance of a patient. As the case unfolds, Teddy uncovers shocking
+                    secrets about the island and his own past. Directed by Martin Scorsese and starring Leonardo
+                    DiCaprio, this psychological thriller keeps you questioning reality until the final twist.</p>
+                <div class="buttons">
+                    <a href="#trailer">
+                        <button class="play">▶ Play</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TRAILER-->
+    <div id="trailer">
+        <div class="video-container">
+            <div class="title">Shutter Island</div>
+            <video controls>
+                <source src="shutter.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webmovies | Dog Man</title>
+    <link rel="stylesheet" href="movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-left">
+                <a href="index.html">
+                    <img src="logo.jpg" class="logo" width="50px" height="30px">
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="home.html">Home</a>
+                <a href="movielist.html">Movie List</a>
+            </div>
+            <div class="nav-right">
+                <input type="text" class="input" placeholder="Search...">
+                <button class="search-btn">
+                    <img src="search.png">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <div class="header">
+        <div class="bg"><img src="dogman1.jpg"></div>
+
+        <!--MOVIE INFO-->
+        <div class="movie-card">
+            <img src="poster12.jpg" class="poster">
+            <div class="info">
+                <h1>Dog Man</h1>
+                <div class="description">
+                    <span>📅 1/31/2025</span>
+                    <span>⭐ 8.5</span>
+                    <span>⏱️ 1h 29m</span>
+                </div>
+                <p>After a heroic police officer and his loyal dog are injured on duty, an experimental surgery fuses
+                    them into Dog Man—a half-human, half-canine crimefighter. As he battles the mischievous Petey the
+                    Cat, Dog Man forms an unexpected bond with Petey's innocent clone, Li'l Petey. Together, they
+                    navigate challenges of friendship, family, and redemption in this heartwarming animated adventure.
+                </p>
+                <div class="buttons">
+                    <a href="#trailer">
+                    <button class="play">▶ Play</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TRAILER-->
+    <div id="trailer">
+        <div class="video-container">
+            <div class="title">Dog Man</div>
+            <video controls>
+                <source src="dogman.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+
+</body>
+
+</html>

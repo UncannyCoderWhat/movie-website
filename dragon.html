@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webmovies | How to Train Your Dragon</title>
+    <link rel="stylesheet" href="movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-left">
+                <a href="index.html">
+                    <img src="logo.jpg" class="logo" width="50px" height="30px">
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="home.html">Home</a>
+                <a href="movielist.html">Movie List</a>
+            </div>
+            <div class="nav-right">
+                <input type="text" class="input" placeholder="Search...">
+                <button class="search-btn">
+                    <img src="search.png">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <div class="header">
+        <div class="bg"><img src="dragon1.jpg"></div>
+
+        <!--MOVIE INFO-->
+        <div class="movie-card">
+            <img src="poster13.jpg" class="poster">
+            <div class="info">
+                <h1>How to Train Your Dragon</h1>
+                <div class="description">
+                    <span>📅 6/13/2025</span>
+                    <span>⭐ 8.7</span>
+                    <span>⏱️ 2h 10m</span>
+                </div>
+                <p>In the Viking village of Berk, young Hiccup Horrendous Haddock III defies tradition by befriending a
+                    dragon he names Toothless. As their bond grows, Hiccup challenges his people's long-standing
+                    beliefs, leading to a journey of understanding, courage, and the unbreakable link between humans and
+                    dragons.</p>
+                <div class="buttons">
+                    <a href="#trailer">
+                        <button class="play">▶ Play</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TRAILER-->
+    <div id="trailer">
+        <div class="video-container">
+            <div class="title">How to Train Your Dragon</div>
+            <video controls>
+                <source src="dragon.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+
+</body>
+
+</html>
